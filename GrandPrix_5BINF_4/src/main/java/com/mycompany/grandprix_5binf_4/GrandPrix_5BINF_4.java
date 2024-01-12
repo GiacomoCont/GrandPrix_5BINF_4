@@ -13,6 +13,7 @@ public class GrandPrix_5BINF_4 {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        System.out.println("Test push e pull di git");
+        System.out.println("Come vai bro?");
+        System.out.println("wwowowowwo");
     }
 }
