@@ -15,5 +15,6 @@ public class GrandPrix_5BINF_4 {
         System.out.println("Hello World!");
         System.out.println("Come vai bro?");
         System.out.println("wwowowowwo");
+        System.out.println("La vita non ha senso");
     }
 }
