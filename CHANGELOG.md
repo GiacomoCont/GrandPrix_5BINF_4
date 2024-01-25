@@ -48,7 +48,6 @@ Tipi di modifiche:
 
 - Aggiunta del file CHANGELOG.md
 - Aggiunta del file .gitignore
-- Aggiunta del file README.md
 
 ### Changed
 
