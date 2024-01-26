@@ -1,0 +1,42 @@
+<Project>
+  <Name>GrandPrix</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Build 1</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Giocatore</Name>
+        <Access>Public</Access>
+        <Location left="370" top="127" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nomeUtente</Member>
+        <Member type="Field">private String password</Member>
+        <Member type="Field">private ArrayList&lt;Auto&gt; nAuto</Member>
+        <Member type="Field">private ArrayList&lt;Circuito&gt; nCircuito</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Thread</Name>
+        <Access>Public</Access>
+        <Location left="809" top="25" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void run()</Member>
+        <Member type="Method">public abstract void sleep()</Member>
+        <Member type="Method">public abstract void stop()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Auto</Name>
+        <Access>Public</Access>
+        <Location left="815" top="322" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int newField</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
