@@ -56,4 +56,16 @@ Tipi di modifiche:
 
 # 5 - 26/01/2024
 
+### Fixed
+- Correzione dei problemi legati al "git push" e "git pull".
+- Correzione della fusione del repository "GrandPrix_5BINF_4" e "GestioneFile_5BINF".
+
+### Changed
+- Modifica dei file java del progetto.
+- Modifica del Diagramma UML nel repository.
+- Modifica del file "CHANGELOG.md".
+
+### Added 
+- Aggiunto il file "GrandPrix.gitignore".
+  
 
