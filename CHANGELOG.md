@@ -51,7 +51,7 @@ Tipi di modifiche:
 
 ### Changed
 
-- Modifica e miglioria del Diagramma UML.
+- Modifica e miglioramento del Diagramma UML.
 - Modifica del codice derivante dal diagramma delle classi.
 
 
