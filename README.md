@@ -6,28 +6,9 @@ Simulazione di gare automobilistiche
 -----------
 - Sviluppatori: Contini, Borzuola, Gropasi, Miscia.
 
-Features
+Descrizione Progetto
 --------
 
-- [FEATURE 1]
-- [FEATURE 2]
-- [FEATURE 3]
-
-Content management system
--------------------------
-
-- [CMS NAME]
-
-Deployment
-----------
-
-- GIT/FTP
-     - release -> live
-
-Contribute or Support
----------------------
-
-If you are having issues, please email the webmaster [NAME (AND ADD EMAIL =>)](mailto:#).
 
 License
 -------
