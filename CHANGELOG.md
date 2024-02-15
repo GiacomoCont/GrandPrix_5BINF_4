@@ -68,4 +68,28 @@ Tipi di modifiche:
 ### Added 
 - Aggiunto il file "GrandPrix.gitignore".
   
+# 6 - 09/02/2024
 
+### Added
+- Aggiunta del file README.md
+- Aggiunta del file GrandPrix.PNG
+
+### Changed
+- Modifica e miglioramento del codice derivante dal diagramma delle classi. 
+
+# 7 - 14/02/2024
+
+### Added
+- Aggiunta del file Lettore.java
+- Aggiunta del file Scrittore.java
+- Aggiunta del file ScrittoreAutomobili.java
+- Aggiunta del file Matrice.java
+- aggiunta del file Vigenere.java
+
+### Changed 
+- Modifica e miglioramento del codice derivamente dal diagramma delle classi.
+
+# 8 15/02/2024
+
+### Changed
+- Modifica e miglioramento del codice derivante dal diagramma delle classi.
