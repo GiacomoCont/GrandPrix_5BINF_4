@@ -63,7 +63,7 @@ Tipi di modifiche:
 ### Changed
 - Modifica dei file java del progetto.
 - Modifica del Diagramma UML nel repository.
-- Modifica del file "CHANGELOG.md".
+- Modifica  e miglioramento del file "CHANGELOG.md".
 
 ### Added 
 - Aggiunto il file "GrandPrix.gitignore".
@@ -75,7 +75,8 @@ Tipi di modifiche:
 - Aggiunta del file GrandPrix.PNG
 
 ### Changed
-- Modifica e miglioramento del codice derivante dal diagramma delle classi. 
+- Modifica e miglioramento del codice derivante dal diagramma delle classi.
+- Modifica e miglioramento del file "CHANGELOG.md". 
 
 # 7 - 14/02/2024
 
@@ -88,8 +89,21 @@ Tipi di modifiche:
 
 ### Changed 
 - Modifica e miglioramento del codice derivamente dal diagramma delle classi.
+- Modifica e miglioramento del file "CHANGELOG.md".
 
 # 8 15/02/2024
 
 ### Changed
 - Modifica e miglioramento del codice derivante dal diagramma delle classi.
+- Modifica e miglioramento del file "CHANGELOG.md".
+
+# 22/02/2024
+### Added
+- Aggiunta del Diagramma dei Casi d'Uso.
+- Aggiunta del file "GrandPrix_5BINF_4.PGN".
+
+### Changed 
+- Modifica e miglioramento del codice del progetto.
+- Modifica e miglioramento del file "README.md".
+- Modifica e miglioramento del file "GrandPrix_5BINF_4.ncp".
+- Modifica e miglioramento del file "CHANGELOG.md".
