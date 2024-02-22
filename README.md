@@ -14,7 +14,12 @@ Questo progetto è stato creato per simulare una gara di corse automobilistiche,
 
 Istruzioni all'uso 
 ------------------
-
+- Come prima cosa useremo la classe `Giudice.java`, per l'avvio in quanto classe contenente il main, fatto questo ci dirigiamo allo step successivo.
+- Avviata la classe giudice ci apparira un interfaccia ove l'utente può inserire _username_ e *password* (cifrati grazie alla classe `Vigenere.java`), salvate in file user.csv.
+- Come seconda opzione l'utente può inserire le informazioni delle auto e dei piloti, scegliendo prima il numero dei due, o se non si desidera immettere manualmente le informazioni delle altre auto sarannò impostate di default.
+- La terza consiste nella creazione del _Circuito_ secgliendo nome, lunghezza, numero di gir e pit-stop.
+- Quarta sezione del menù si può decidere di truccare la propria auto cambiando la sua velocità (Attenzione darà errore se la velocità dell'auto sarà maggiore della metà dei giri!! es. velocità auto 8 ma con 10 giri darà errore se invece di 8 inseriremo 4 il programma continuerà il suo normale funzionamento).
+- Infine abbiamo *Avvia gara* dove verranno mostrati a schermo dei punti che rappresnteranno le auto in gara, i pit stop verranno generati casualmente per ogni auto i quali avranno la durata di circa 1.5 secondi di stop.
 
 Riferimenti 
 -----------
