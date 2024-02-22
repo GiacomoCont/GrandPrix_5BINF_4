@@ -1,0 +1,285 @@
+<Project>
+  <Name>GrandPrix</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Build 1</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Giudice</Name>
+        <Access>Public</Access>
+        <Location left="1027" top="1088" />
+        <Size width="259" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public static void main(String[] args)</Member>
+        <Member type="Method">public static void visualizzaInterfaccia()</Member>
+        <Member type="Method">public static void clearScreen()</Member>
+        <Member type="Method">public static void mostraClassifica()</Member>
+        <Member type="Method">public static void salvaClassifica()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Pilota</Name>
+        <Access>Public</Access>
+        <Location left="1774" top="764" />
+        <Size width="540" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nome</Member>
+        <Member type="Field">private String cognome</Member>
+        <Member type="Field">private int eta</Member>
+        <Member type="Field">private String nazionalita</Member>
+        <Member type="Field">private char sesso</Member>
+        <Member type="Field">private float altezza</Member>
+        <Member type="Field">private float peso</Member>
+        <Member type="Constructor">public Pilota(String nome, String cognome, int eta, String nazionalita, char sesso, float altezza, float peso)</Member>
+        <Member type="Method">public String getNome()</Member>
+        <Member type="Method">public String getCognome()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Auto</Name>
+        <Access>Public</Access>
+        <Location left="1473" top="191" />
+        <Size width="527" height="349" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int velocita</Member>
+        <Member type="Field">private String marca</Member>
+        <Member type="Field">private String modello</Member>
+        <Member type="Field">private String colore</Member>
+        <Member type="Field">private Pilota pilota</Member>
+        <Member type="Field">private boolean safetyCar = false</Member>
+        <Member type="Field">private boolean inGara = false</Member>
+        <Member type="Field">private int distanza = 0</Member>
+        <Member type="Constructor">public Auto(int velocita, String marca, String modello, String colore, Pilota pilota)</Member>
+        <Member type="Method">public void setSafetyCar(boolean safetyCar)</Member>
+        <Member type="Method">public int getDistanza()</Member>
+        <Member type="Method">public void truccaAuto(int velocita)</Member>
+        <Member type="Method">public void run()</Member>
+        <Member type="Method">public void stopGara()</Member>
+        <Member type="Method">public String toString()</Member>
+        <Member type="Method">public void pitStop()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Giocatore</Name>
+        <Access>Public</Access>
+        <Location left="1476" top="1055" />
+        <Size width="277" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String username</Member>
+        <Member type="Field">private String password</Member>
+        <Member type="Field">private static ArrayList&lt;Auto&gt; automobili</Member>
+        <Member type="Field">private static int nAuto = 0</Member>
+        <Member type="Constructor">public Giocatore(String username, String password)</Member>
+        <Member type="Method">public void accesso()</Member>
+        <Member type="Method">public void setUsername(String username)</Member>
+        <Member type="Method">public void setPassword(String password)</Member>
+        <Member type="Method">public void numAuto()</Member>
+        <Member type="Method">public void circuito()</Member>
+        <Member type="Method">public void trucca()</Member>
+        <Member type="Method">public void iniziaGara()</Member>
+        <Member type="Method">public static ArrayList&lt;Auto&gt; getAutomobili()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Circuito</Name>
+        <Access>Public</Access>
+        <Location left="1040" top="778" />
+        <Size width="355" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nome</Member>
+        <Member type="Field">private static int lunghezza</Member>
+        <Member type="Field">private static int nGiri</Member>
+        <Member type="Field">private static int nPitStop</Member>
+        <Member type="Constructor">public Circuito(String nome, int lunghezza, int nGiri, int nPitStop)</Member>
+        <Member type="Method">public static int getLunghezza()</Member>
+        <Member type="Method">public static int getNGiri()</Member>
+        <Member type="Method">public static int getNPitStop()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Lettore</Name>
+        <Access>Public</Access>
+        <Location left="612" top="286" />
+        <Size width="233" height="168" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nomeFile</Member>
+        <Member type="Constructor">public Lettore(String nomeFile)</Member>
+        <Member type="Method">public void leggi()</Member>
+        <Member type="Method">public String Stream(String nomeFile)</Member>
+        <Member type="Method">public void run()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Scrittore</Name>
+        <Access>Public</Access>
+        <Location left="637" top="562" />
+        <Size width="355" height="179" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nomeFile</Member>
+        <Member type="Field">private String username</Member>
+        <Member type="Field">private String password</Member>
+        <Member type="Constructor">public Scrittore(String nomeFile, String username, String password)</Member>
+        <Member type="Method">public void run()</Member>
+        <Member type="Method">public void scrivi()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ScrittoreAutomobili</Name>
+        <Access>Public</Access>
+        <Location left="1200" top="515" />
+        <Size width="232" height="162" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String nomeFile</Member>
+        <Member type="Constructor">public ScrittoreAutomobili(String nomeFile)</Member>
+        <Member type="Method">public void run()</Member>
+        <Member type="Method">public static void scrivi_automobili()</Member>
+        <Member type="Method">public static void leggiAutomobili()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vigenere</Name>
+        <Access>Public</Access>
+        <Location left="161" top="444" />
+        <Size width="309" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int ir</Member>
+        <Member type="Field">private int fr</Member>
+        <Member type="Field">private int ic</Member>
+        <Member type="Field">private int fc</Member>
+        <Member type="Field">private Matrice matrix</Member>
+        <Member type="Constructor">public Vigenere(int ir, int fr, int ic, int fc, Matrice matrix)</Member>
+        <Member type="Method">public void run()</Member>
+        <Member type="Method">public void popola()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Matrice</Name>
+        <Access>Public</Access>
+        <Location left="146" top="746" />
+        <Size width="327" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private char[] mv</Member>
+        <Member type="Field">private String verme</Member>
+        <Member type="Constructor">public Matrice(String verme)</Member>
+        <Member type="Method">public void setElemento(int ir, int c, int el)</Member>
+        <Member type="Method">public char getElemento(int r, int c)</Member>
+        <Member type="Method">public void stampa()</Member>
+        <Member type="Method">public String cifra(String fch)</Member>
+        <Member type="Method">public String deCifra(String fcf)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Thread</Name>
+        <Access>Public</Access>
+        <Location left="1037" top="34" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public abstract void run()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>Runnable</Name>
+        <Access>Public</Access>
+        <Location left="232" top="43" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void run()</Member>
+      </Entity>
+      <Entity type="Interface">
+        <Name>Serializable</Name>
+        <Access>Public</Access>
+        <Location left="2161" top="340" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="5" second="10">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>997</X>
+          <Y>527</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="7" second="10">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="10">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="8" second="11">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="4">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Dependency" first="0" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="8" second="9">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="1" second="12">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Realization" first="2" second="12">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="9" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1532</X>
+          <Y>1400</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
